@@ -3,6 +3,7 @@ package com.example.lslevins.lab4_exercise;
 public abstract class Shape {
     private int x;
     private int y;
+    private int z;
 
     public int getX() {
         return x;
