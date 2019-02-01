@@ -31,7 +31,7 @@ public abstract class Shape {
     }
     
     public String getColour(){
-        return color;
+        return colour;
     }
     
     public void setColour(String colour){
