@@ -4,6 +4,8 @@ public abstract class Shape {
     private int x;
     private int y;
     private int z;
+    private String colour;
+
 
     public int getX() {
         return x;
@@ -19,5 +21,13 @@ public abstract class Shape {
 
     public void setY(int y) {
         this.y = y;
+    }
+    
+    public String getColour(){
+        return color;
+    }
+    
+    public void setColour(String colour){
+        this.colour = colour;
     }
 }
