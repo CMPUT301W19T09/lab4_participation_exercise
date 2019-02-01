@@ -5,6 +5,8 @@ public abstract class Shape {
     private int y;
     private int z;
 
+    private String colour;
+
     public int getX() {
         return x;
     }
@@ -27,5 +29,13 @@ public abstract class Shape {
 
     public void setZ(int z) {
         this.z = z;
+    }
+    
+    public String getColour(){
+        return colour;
+    }
+    
+    public void setColour(String colour){
+        this.colour = colour;
     }
 }
